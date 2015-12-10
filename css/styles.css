@@ -43,14 +43,14 @@ body {
     #landing .image-container .likes {
       position: absolute;
       bottom: 1em;
-      right: -31em;
+      right: 2em;
       font-size: 1.8em; }
       #landing .image-container .likes i {
         margin-right: 0.2em; }
     #landing .image-container .edit {
       position: absolute;
-      right: -18em;
-      top: -10em;
+      right: 2em;
+      top: 1em;
       font-size: 3em;
       background-color: rgba(0, 0, 0, 0.5);
       padding: 0.3em; }
