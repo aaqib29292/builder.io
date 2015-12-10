@@ -3,6 +3,7 @@ body {
   color: #A7B0B2; }
 
 .btn-solid {
+  background-color: #A28CCC;
   color: #FFF;
   border-radius: 2px;
   width: 12em;
@@ -85,5 +86,12 @@ body {
     margin: 2em 0 0.7em; }
   #intro p {
     font-size: 1.2em; }
+
+#features {
+  padding: 5em 0 22em;
+  background-color: #F5F5F3;
+  background-image: url("../images/tilted-phone.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center; }
 
 /*# sourceMappingURL=app.css.map */
