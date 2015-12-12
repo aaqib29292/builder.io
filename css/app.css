@@ -91,6 +91,8 @@ body {
   background-image: url("../images/tilted-phone.jpg");
   background-repeat: no-repeat;
   background-position: bottom center; }
+  #features .btn-solid {
+    padding: 1em 1em; }
 
 #take-look {
   background-color: #A28CCC;
@@ -196,6 +198,8 @@ body {
   #mountains-and-ipad .take-my-money a {
     background-color: #51DBDD;
     padding: 1em; }
+#mountains-and-ipad img {
+  width: 100%; }
 
 footer {
   border-bottom: 100px solid #cdc1e4;
