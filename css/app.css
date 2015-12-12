@@ -197,4 +197,19 @@ body {
     background-color: #51DBDD;
     padding: 1em; }
 
+footer {
+  border-bottom: 100px solid #cdc1e4;
+  padding: 3em 0; }
+  footer a {
+    display: block;
+    font-weight: bold;
+    margin: 0.5em 0; }
+    footer a, footer a:hover {
+      color: #A7B0B2; }
+  footer .pencil-container {
+    text-align: center; }
+    footer .pencil-container i {
+      font-size: 3em;
+      transform: rotate(-45deg); }
+
 /*# sourceMappingURL=app.css.map */
