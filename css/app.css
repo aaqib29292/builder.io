@@ -100,7 +100,10 @@ body {
   #take-look h2 {
     text-transform: uppercase; }
   #take-look a.take-my-money {
-    background-color: #51DBDD; }
+    background-color: #51DBDD;
+    padding: 1em; }
+    #take-look a.take-my-money:hover {
+      color: #FFF; }
   #take-look a.free-account {
     color: #FFF;
     border-color: #FFF;

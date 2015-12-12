@@ -10,7 +10,10 @@
 
   a.take-my-money {
     background-color: $secondary-color;
-
+    padding: 1em;
+    &:hover{
+      color: $light-font-color;
+    }
   }
 
   a.free-account {
