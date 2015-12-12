@@ -1,56 +1,200 @@
-/*
-Error: File to import not found or unreadable: mountians.
-        on line 10 of css/src/app.scss
+body {
+  font-family: 'Sintony', sans-serif;
+  color: #A7B0B2; }
 
-5:         "features",
-6:         "take-look",
-7:         "video-demo",
-8:         "customization",
-9:         "pricing",
-10:         "mountians";
+.btn-solid {
+  background-color: #A28CCC;
+  color: #FFF;
+  border-radius: 2px;
+  width: 12em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em 3em; }
+  .btn-solid:hover {
+    color: #FFF; }
 
-Backtrace:
-css/src/app.scss:10
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/import_node.rb:45:in `import'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/import_node.rb:28:in `imported_file'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/import_node.rb:37:in `css_import?'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/stack.rb:79:in `block in with_base'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/stack.rb:79:in `with_base'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `map'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/root_node.rb:36:in `css_tree'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `call'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/home/aaqib29292/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: mountians.\A         on line 10 of css/src/app.scss\A \A 5:         \"features\",\A 6:         \"take-look\",\A 7:         \"video-demo\",\A 8:         \"customization\",\A 9:         \"pricing\",\A 10:         \"mountians\";"; }
+.btn-outline {
+  color: #A7B0B2;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em 3em;
+  border: 1px solid #A7B0B2; }
+  .btn-outline:hover {
+    color: #A7B0B2; }
+
+#landing {
+  background-color: #A28CCC;
+  color: #FFF;
+  text-align: center;
+  padding-top: 3em; }
+  #landing nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 1.5em; }
+    #landing nav a.active {
+      font-weight: bold;
+      border-bottom: 2px solid #FFF;
+      padding-bottom: 0.5em; }
+  #landing h1 {
+    font-size: 4em;
+    margin-top: 2em; }
+  #landing p.tagline {
+    font-size: 1.3em;
+    margin: 1em 0; }
+  #landing a.action {
+    background-color: #51DBDD;
+    width: 12em; }
+  #landing .image-container {
+    position: relative; }
+    #landing .image-container img {
+      margin-top: 5em; }
+    #landing .image-container .caption {
+      position: absolute;
+      bottom: 1em;
+      left: 2em;
+      text-align: left;
+      font-weight: bold; }
+    #landing .image-container p.title {
+      font-size: 1.5em;
+      margin-bottom: 0; }
+    #landing .image-container .likes {
+      position: absolute;
+      bottom: 1em;
+      right: 2em;
+      font-size: 1.8em; }
+      #landing .image-container .likes i {
+        margin-right: 0.2em; }
+    #landing .image-container .edit {
+      position: absolute;
+      right: 2em;
+      top: 1em;
+      font-size: 3em;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 0.3em; }
+
+#intro {
+  text-align: center;
+  padding: 2em 0; }
+  #intro .get-started {
+    background-color: #A28CCC; }
+  #intro .try-demo {
+    margin-left: 1em; }
+  #intro h2 {
+    margin: 2em 0 0.7em; }
+  #intro p {
+    font-size: 1.2em; }
+
+#features {
+  padding: 5em 0 22em;
+  background-color: #F5F5F3;
+  background-image: url("../images/tilted-phone.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center; }
+
+#take-look {
+  background-color: #A28CCC;
+  text-align: center;
+  padding: 3em 0;
+  color: #FFF; }
+  #take-look h2 {
+    text-transform: uppercase; }
+  #take-look a.take-my-money {
+    background-color: #51DBDD;
+    padding: 1em; }
+    #take-look a.take-my-money:hover {
+      color: #FFF; }
+  #take-look a.free-account {
+    color: #FFF;
+    border-color: #FFF;
+    margin-left: 1em; }
+
+#video-demo {
+  position: relative; }
+  #video-demo img {
+    width: 100%; }
+  #video-demo i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    font-size: 8vw;
+    transform: translate(-50%, -50%); }
+
+#customization {
+  text-align: center;
+  padding: 3em 0 8em;
+  background-color: #F5F5F3; }
+  #customization i {
+    font-size: 3em;
+    color: #A28CCC; }
+  #customization a {
+    color: #A28CCC;
+    font-weight: bold; }
+
+#pricing {
+  text-align: center;
+  padding: 4em 0; }
+  #pricing h2 {
+    text-transform: uppercase;
+    color: #A28CCC; }
+  #pricing p.caption {
+    color: #A28CCC;
+    margin-bottom: 2em;
+    font-weight: bold; }
+  #pricing .price-option {
+    border: 1px solid #A7B0B2;
+    border-radius: 13px;
+    height: 41em;
+    position: relative; }
+    #pricing .price-option h3 {
+      background-color: #A28CCC;
+      color: #FFF;
+      margin: 0;
+      padding: 0.6em;
+      text-transform: uppercase;
+      border-radius: 10px 10px 0 0; }
+    #pricing .price-option p.description {
+      font-weight: bold;
+      margin: 2em 3em 1em; }
+    #pricing .price-option p.price {
+      color: #51DBDD;
+      font-size: 2.7em; }
+      #pricing .price-option p.price span {
+        font-size: 0.5em;
+        color: #A7B0B2;
+        position: relative;
+        top: -0.4em;
+        font-weight: bold; }
+    #pricing .price-option .reason {
+      border-top: 2px solid #d0d5d6;
+      padding: 1em;
+      margin: 0 2em;
+      font-weight: bold; }
+    #pricing .price-option a.signup {
+      margin: 0 2em;
+      position: absolute;
+      bottom: 1.5em;
+      left: 3em;
+      width: 17em; }
+      #pricing .price-option a.signup.btn-outline {
+        color: #A28CCC;
+        border-color: #A28CCC; }
+  #pricing .user-count {
+    color: #A28CCC;
+    margin-top: 1em;
+    font-size: 1.2em; }
+    #pricing .user-count span {
+      font-size: 1.3em;
+      position: relative;
+      top: 0.1em; }
+
+#mountains-and-ipad .take-my-money {
+  background-color: #A28CCC;
+  padding: 3em 0;
+  text-align: center; }
+  #mountains-and-ipad .take-my-money a {
+    background-color: #51DBDD;
+    padding: 1em; }
+
+/*# sourceMappingURL=app.css.map */
